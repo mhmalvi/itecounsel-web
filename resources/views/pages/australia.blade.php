@@ -3,7 +3,7 @@
     <meta name="keyword" content="html,css,XML,java script,meta tags">
         <meta name="keywords" content="australia, australians,  international students, study in australia, australian scholarships">
         <meta name="keywords" content="meta tags, meta description, meta keywords, SEO, search engine optimization">
-        <meta name="description" 
+        <meta name="description"
        content="Australia is currently the third most popular destination for international students in the English-speaking world,behind the United States.">
        <meta tag="keywords" content="austrlia,
 australians,
@@ -61,20 +61,20 @@ australian outback
             <div class="overlay"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">                    
+                    <div class="col-md-12">
                         <div class="page-title-heading">
                             <h1 class="title">STUDY IN AUSTRALIA</h1>
                             <div class="breadcrumbs">
                                 <ul>
                                     <li><a href="{{URL::to('/')}}">Home</a></li>
                                     <li>STUDY IN AUSTRALIA</li>
-                                </ul>                   
+                                </ul>
                             </div>
-                        </div><!-- /.page-title-captions --> 
-                        
-                    </div><!-- /.col-md-12 -->  
-                </div><!-- /.row -->  
-            </div><!-- /.container -->                      
+                        </div><!-- /.page-title-captions -->
+
+                    </div><!-- /.col-md-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
         </div><!-- /.page-title -->
 
         <section class="flat-row pad-bottom60px pad-top85px">
@@ -93,7 +93,7 @@ australian outback
                     <div class="col-md-6">
                         <div class="single-image">
                             <img src="{{asset('assets/images/study/why-australia-study.jpg')}}" alt="image">
-                        </div><!-- /.about-us-img -->                        
+                        </div><!-- /.about-us-img -->
                     </div><!-- /.col-md-6 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
@@ -111,7 +111,7 @@ australian outback
                         <p style="color: #fff; text-align: justify;">There are endless options to consider when deciding to study in another country, there's loads of highly respected universities and so many beautiful countries to experience living in. There are so many things to consider when deciding where you'd like to study, but here's a bunch of reasons we think Australia is one of the best places to do it.</p>
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
-    
+
                 <hr>
                 <div class="flat-divider d20px"></div>
 
@@ -134,7 +134,7 @@ australian outback
                             </ul>
                         </div><!-- /.flat-list -->
                     </div><!-- /.col-md-6 -->
-    
+
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="flat-list right">
                             <ul>
@@ -172,22 +172,22 @@ australian outback
                         <div class="flat-testimonials" data-item="3" data-nav="false" data-dots="false" data-auto="true">
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/Charles-Darwin-University.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/La-Trobe-University.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/Macquarie-University.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/Southern-Cross-University.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/University-of-Sunshine-Coast.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/University-of-Tasmania.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                                                                 
+                            </div>
                         </div><!-- /.flat-testimonials-->
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
@@ -200,30 +200,10 @@ australian outback
                 <div class="row">
                     <div class="col-md-12">
                         <div class="wrap-contactform-home3">
-                            <form class="flat-contact-form style2 border-white border-large" id="contactform6" method="post" action="./contact/contact-process.php">
-                                <div class="field">      
-                                    <div class="wrap-type-input">                    
-                                        <div class="input-wrap name">
-                                            <input type="text" value="" tabindex="1" placeholder="Name" name="name" id="name" required="">
-                                        </div>
-                                        <div class="input-wrap email">
-                                            <input type="email" value="" tabindex="2" placeholder="Email" name="email" id="email-contact" required="">
-                                        </div>
-                                        <div class="input-wrap last Subject">
-                                            <input type="text" value="" placeholder="Subject" name="subject" id="subject-3">
-                                        </div>  
-                                    </div>
-                                    <div class="textarea-wrap">
-                                        <textarea class="type-input" tabindex="3" placeholder="Message" name="message" id="message-contact" required=""></textarea>
-                                    </div>
-                                </div>
-                                <div class="submit-wrap">
-                                    <button>Contact Us</button>
-                                </div>
-                            </form>
+                            @include('components.contactUs')
                         </div><!-- /.wrap-contactform-home3 -->
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
-        </section> 
+        </section>
 @endsection

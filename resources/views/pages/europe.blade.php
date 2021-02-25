@@ -3,7 +3,7 @@
     <meta name="keyword" content="html,css,XML,java script,meta tags">
         <meta name="keywords" content="Europe, study in europe,  right university, universities, beauty of Europe">
         <meta name="keywords" content="meta tags, meta description, meta keywords, SEO, search engine optimization">
-        <meta name="description" 
+        <meta name="description"
        content="Are you an ambitious researcher looking to boost your career? Europe offers you great opportunities.There were 1.58 million full time researchers">
        <meta tag="keywords" content="europe,study in europe,universities,beauty of europe,europa,uni,uts,um,harvard referencing,cmu,nu result,countries in europe,udc,undergraduate,du admission,student central,upenn,eastern europe,du result,swinburne,lpu ums,uow,unh,bu result,kth,nbu,top universities in the world,royal holloway,best universities in the world,ru result,western europe,bu result 2019,bgsu,times higher education,univ,jnu admission,top universities,ball state,ualbany,undergraduate degree,uchicago,fdu,ivy league colleges,ewu,degree result">
 
@@ -14,20 +14,20 @@
             <div class="overlay"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">                    
+                    <div class="col-md-12">
                         <div class="page-title-heading">
                             <h1 class="title">STUDY IN EUROPE</h1>
                             <div class="breadcrumbs">
                                 <ul>
                                     <li><a href="{{URL::to('/')}}">Home</a></li>
                                     <li>STUDY IN EUROPE</li>
-                                </ul>                   
+                                </ul>
                             </div>
-                        </div><!-- /.page-title-captions --> 
-                        
-                    </div><!-- /.col-md-12 -->  
-                </div><!-- /.row -->  
-            </div><!-- /.container -->                      
+                        </div><!-- /.page-title-captions -->
+
+                    </div><!-- /.col-md-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
         </div><!-- /.page-title -->
 
         <section class="flat-row pad-bottom60px pad-top85px">
@@ -45,7 +45,7 @@
                     <div class="col-md-6">
                         <div class="single-image">
                             <img src="{{asset('assets/images/study/Why-Europe.jpg')}}" alt="image">
-                        </div><!-- /.about-us-img -->                        
+                        </div><!-- /.about-us-img -->
                     </div><!-- /.col-md-6 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
@@ -63,7 +63,7 @@
                         <p style="color: #fff">Being able to study in any of the European countries is perhaps a dream come true for those who seek for higher education abroad. Tuition fees along with living expenses are comparatively lesser than other countries such as the USA.</p>
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
-    
+
                 <hr>
                 <div class="flat-divider d20px"></div>
 
@@ -93,14 +93,14 @@
                             </ul>
                         </div><!-- /.flat-list -->
                     </div><!-- /.col-md-6 -->
-    
+
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="flat-list right">
                             <ul>
                                 <li class="content" style="text-align: justify;">
                                     <h6 class="title" style="color: #fff">World-Class Education</h6>
                                     <p>
-                                        World-leading universities, top facilities and inspirational teaching. in Europe, you’re at the centre of an international community with a passion for learning. What makes European universities so strong is the emphasis on creativity, innovation and support – helping you to reach your true potential.                         
+                                        World-leading universities, top facilities and inspirational teaching. in Europe, you’re at the centre of an international community with a passion for learning. What makes European universities so strong is the emphasis on creativity, innovation and support – helping you to reach your true potential.
                                     </p>
                                 </li>
                                 <li class="content" style="text-align: justify;">
@@ -111,7 +111,7 @@
                                 <li class="content" style="text-align: justify;">
                                     <h6 class="title" style="color: #fff">Scholarships And Costs</h6>
                                     <p>
-                                        European countries invest in their higher education systems to help make education affordable for students, whilst maintaining high quality standards. Across Europe, tuition fees and living costs compare very well to other study destinations. In fact, in some European countries, study programmes are free of charge! There are lots of scholarships and financial support options available too.                             
+                                        European countries invest in their higher education systems to help make education affordable for students, whilst maintaining high quality standards. Across Europe, tuition fees and living costs compare very well to other study destinations. In fact, in some European countries, study programmes are free of charge! There are lots of scholarships and financial support options available too.
                                     </p>
                                 </li>
                                 <li class="content" style="text-align: justify;">
@@ -142,22 +142,22 @@
                         <div class="flat-testimonials" data-item="3" data-nav="false" data-dots="false" data-auto="true">
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/JAGIELLONIAN-UNIVERSITY-IN-KRAKOW.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/university-of-warsaw.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/Uniwersytet-Wroktawski.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/Vilnius_universit.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/vytautas-magnus-university.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/Lithuanian-University-of-Educational-Science.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                                                                 
+                            </div>
                         </div><!-- /.flat-testimonials-->
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
@@ -170,30 +170,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="wrap-contactform-home3">
-                            <form class="flat-contact-form style2 border-white border-large" id="contactform6" method="post" action="./contact/contact-process.php">
-                                <div class="field">      
-                                    <div class="wrap-type-input">                    
-                                        <div class="input-wrap name">
-                                            <input type="text" value="" tabindex="1" placeholder="Name" name="name" id="name" required="">
-                                        </div>
-                                        <div class="input-wrap email">
-                                            <input type="email" value="" tabindex="2" placeholder="Email" name="email" id="email-contact" required="">
-                                        </div>
-                                        <div class="input-wrap last Subject">
-                                            <input type="text" value="" placeholder="Subject" name="subject" id="subject-3">
-                                        </div>  
-                                    </div>
-                                    <div class="textarea-wrap">
-                                        <textarea class="type-input" tabindex="3" placeholder="Message" name="message" id="message-contact" required=""></textarea>
-                                    </div>
-                                </div>
-                                <div class="submit-wrap">
-                                    <button>Contact Us</button>
-                                </div>
-                            </form>
+                            @include('components.contactUs')
                         </div><!-- /.wrap-contactform-home3 -->
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
-        </section> 
+        </section>
 @endsection

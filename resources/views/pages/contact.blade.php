@@ -6,20 +6,20 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
-                <div class="col-md-12">                    
+                <div class="col-md-12">
                     <div class="page-title-heading">
                         <h1 class="title">Contact Us</h1>
                         <div class="breadcrumbs">
                             <ul>
                                 <li><a href="{{URL::to('/')}}">Home</a></li>
                                 <li>Contact Us</li>
-                            </ul>                   
+                            </ul>
                         </div>
-                    </div><!-- /.page-title-captions --> 
-                    
-                </div><!-- /.col-md-12 -->  
-            </div><!-- /.row -->  
-        </div><!-- /.container -->                      
+                    </div><!-- /.page-title-captions -->
+
+                </div><!-- /.col-md-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
     </div><!-- /.page-title -->
 
     <!-- Flat contact -->
@@ -28,9 +28,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="wrap-contactform-home1">
-                        <form id="contactform" class="flat-contact-form border-radius field-large text-large" method="post" action="">
-                            <div class="field clearfix">      
-                                <div class="wrap-type-input">                    
+                        <form class="flat-contact-form border-radius field-large text-large" method="post" action="{{route('contact_us')}}">
+                            @csrf
+                            <div class="field clearfix">
+                                <div class="wrap-type-input">
                                     <div class="input-wrap name">
                                         <input type="text" value="" tabindex="1" placeholder="Your name" name="name" id="name" required>
                                     </div>
@@ -39,16 +40,16 @@
                                     </div>
                                     <div class="input-wrap last Subject">
                                         <input type="text" value="" placeholder="Subject" name="subject" id="subject" >
-                                    </div>  
+                                    </div>
                                 </div>
                                 <div class="textarea-wrap">
                                     <textarea class="type-input" tabindex="3" placeholder="Your Message" name="message" id="message-contact" required></textarea>
                                 </div>
                             </div>
                             <div class="submit-wrap">
-                                <button>send</button>
+                                <button type="submit">send</button>
                             </div>
-                        </form><!-- /.comment-form -->   
+                        </form><!-- /.comment-form -->
                     </div><!-- /.wrap-contactform-home1 -->
                 </div><!-- /.col-md-12 -->
             </div><!-- /.row -->
@@ -113,7 +114,7 @@
         </div><!-- /.container -->
     </section>
 
-    
+
     <section class="flat-row">
         <div class="container">
             <div class="row">

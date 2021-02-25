@@ -9,7 +9,8 @@ use App\Http\Requests\Eligibility ;
 use App\Http\Requests\ApplyRequest ;
 use Illuminate\Support\Facades\Mail;
 use App\Models\Courses;
-use Illuminate\Support\Facades\Validator;
+use App\Http\Requests\ContactUsRequest;
+use App\Mail\ContactUs;
 
 class MailController extends Controller
 {
@@ -45,11 +46,11 @@ class MailController extends Controller
 
 
     /**
-     * 
+     *
      */
     public function ApplyNow(ApplyRequest $request){
         $course = Courses::firstWhere('id', $request->course);
-        
+
         $data = [
             'name' => $request->name,
             'mobile' => $request->mobile,
@@ -58,8 +59,30 @@ class MailController extends Controller
             'course_code' => $course->course_code,
             'course_name' => $course->course_name
         ];
-        
+
         Mail::to('admin@itecounsel.com')->send(new ApplyNow($data));
+
+        $notification = [
+            'message'   =>  'Thanks for your interest! We will contact soon!',
+            'alert-type'    =>  'info'
+        ];
+
+        return redirect()->back()->with($notification);
+    }
+
+
+    /**
+     *
+     */
+    public function contact(ContactUsRequest $request){
+        $data = [
+            'name' => $request->name,
+            'email' => $request->email,
+            'subject' => $request->subject,
+            'message' => $request->message,
+        ];
+
+        Mail::to('admin@itecounsel.com')->send(new ContactUs($data));
 
         $notification = [
             'message'   =>  'Thanks for your interest! We will contact soon!',
