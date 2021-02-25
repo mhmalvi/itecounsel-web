@@ -14,6 +14,8 @@ use App\Mail\ContactUs;
 
 class MailController extends Controller
 {
+    protected $mail = 'dev.quadque@gmail.com';
+    // protected $mail = 'admin@itecounsel.com';
     /**
      * Eligibility Form
      */
@@ -34,7 +36,7 @@ class MailController extends Controller
             'question' => $request->question,
         ];
 
-        Mail::to('admin@itecounsel.com')->send(new TestMail($details));
+        Mail::to($this->mail)->send(new TestMail($details));
 
         $notification = [
             'message'   =>  'Thanks for your interest! We will contact soon!',
@@ -49,7 +51,7 @@ class MailController extends Controller
      *
      */
     public function ApplyNow(ApplyRequest $request){
-        $course = Courses::firstWhere('id', $request->course);
+        $course = Courses::firstWhere('id', $request->cours);
 
         $data = [
             'name' => $request->name,
@@ -60,7 +62,7 @@ class MailController extends Controller
             'course_name' => $course->course_name
         ];
 
-        Mail::to('admin@itecounsel.com')->send(new ApplyNow($data));
+        Mail::to($this->mail)->send(new ApplyNow($data));
 
         $notification = [
             'message'   =>  'Thanks for your interest! We will contact soon!',
@@ -82,7 +84,7 @@ class MailController extends Controller
             'message' => $request->message,
         ];
 
-        Mail::to('admin@itecounsel.com')->send(new ContactUs($data));
+        Mail::to($this->mail)->send(new ContactUs($data));
 
         $notification = [
             'message'   =>  'Thanks for your interest! We will contact soon!',
