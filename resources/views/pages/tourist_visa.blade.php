@@ -3,7 +3,7 @@
     <meta name="keyword" content="html,css,XML,java script,meta tags">
         <meta name="keywords" content="visa processing , foreign regions, Visa Processing Agency, Training Organisation">
         <meta name="keywords" content="meta tags, meta description, meta keywords, SEO, search engine optimization">
-        <meta name="description" 
+        <meta name="description"
        content="We are offering a wide variation of packages at affordable prices so that you get to spend another exciting vacation with your family, friends or loved ones that you have always desired. Being an agency">
     <meta tag="keywords" content="visa processing,
 visa processing agency,
@@ -110,20 +110,20 @@ steps in applying for us visa,
             <div class="overlay"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">                    
+                    <div class="col-md-12">
                         <div class="page-title-heading">
                             <h1 class="title">Tourist Visa</h1>
                             <div class="breadcrumbs">
                                 <ul>
                                     <li><a href="{{URL::to('/')}}">Home</a></li>
                                     <li>Tourist Visa</li>
-                                </ul>                   
+                                </ul>
                             </div>
-                        </div><!-- /.page-title-captions --> 
-                        
-                    </div><!-- /.col-md-12 -->  
-                </div><!-- /.row -->  
-            </div><!-- /.container -->                      
+                        </div><!-- /.page-title-captions -->
+
+                    </div><!-- /.col-md-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
         </div><!-- /.page-title -->
 
         <section class="flat-row pad-bottom60px pad-top85px">
@@ -142,7 +142,7 @@ steps in applying for us visa,
                     <div class="col-md-6">
                         <div class="single-image">
                             <img src="{{asset('assets/images/about/about5.png')}}" alt="image">
-                        </div><!-- /.about-us-img -->                        
+                        </div><!-- /.about-us-img -->
                     </div><!-- /.col-md-6 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
@@ -154,7 +154,7 @@ steps in applying for us visa,
                     <div class="col-md-6">
                         <div class="single-image" style="margin: 0">
                             <img src="{{asset('assets/images/about/undraw_journey_lwlj.svg')}}" alt="image">
-                        </div><!-- /.about-us-img -->                        
+                        </div><!-- /.about-us-img -->
                     </div><!-- /.col-md-6 -->
 
                     <div class="col-md-6">
@@ -162,7 +162,7 @@ steps in applying for us visa,
                             <h2 class="title-about-us">A Certified Visa Processing Agency In Bangladesh.</h2>
                             <div class="desc" style="text-align: justify;">
                                 <p>
-                                    We are offering a wide variation of packages at affordable prices so that you get to spend another exciting vacation with your family, friends or loved ones that you have always desired. Being an agency, it is our responsibility to take charge of your whole visa processing system that leads to greater efficiency while saving more time for you. 
+                                    We are offering a wide variation of packages at affordable prices so that you get to spend another exciting vacation with your family, friends or loved ones that you have always desired. Being an agency, it is our responsibility to take charge of your whole visa processing system that leads to greater efficiency while saving more time for you.
                                     In return, we will charge you added fees for recovering the expenses we would incur during the process, only after visa approval.
                                 </p>
                             </div>
@@ -174,65 +174,65 @@ steps in applying for us visa,
 
         <section  class="flat-row portfolio-row-page">
             <!-- Portfolio Fullwidth -->
-            <div class="flat-portfolio">  
+            <div class="flat-portfolio">
                 <div class="portfolio-wrap clearfix">
-                    <div class="item">                                     
+                    <div class="item">
                         <a class="popup-gallery" href="images/tour/1.3.jpg"><img src="{{asset('assets/images/tour/1.3.jpg')}}" alt="images"></a>
-                        <div class="overlay">                            
-                        </div>  
-                        
+                        <div class="overlay">
+                        </div>
+
                     </div><!-- /.portfolio-item -->
-    
-                    <div class="item">                                     
+
+                    <div class="item">
                         <a class="popup-gallery" href="images/tour/1.2.jpg"><img src="{{asset('assets/images/tour/1.2.jpg')}}" alt="images"></a>
-                        <div class="overlay">                            
-                        </div>                    
+                        <div class="overlay">
+                        </div>
                     </div><!-- /.portfolio-item -->
-    
-                    <div class="item w50">                                     
+
+                    <div class="item w50">
                         <a class="popup-gallery" href="images/tour/1.1.jpg"><img src="{{asset('assets/images/tour/1.1.jpg')}}" alt="images"></a>
-                        <div class="overlay">                            
-                        </div>                    
+                        <div class="overlay">
+                        </div>
                     </div><!-- /.portfolio-item -->
-         
-                    <div class="item">                                     
+
+                    <div class="item">
                         <a class="popup-gallery" href="images/tour/1.4.jpg"><img src="{{asset('assets/images/tour/1.4.jpg')}}" alt="images"></a>
-                        <div class="overlay">                            
-                        </div>                   
+                        <div class="overlay">
+                        </div>
                     </div><!-- /.portfolio-item -->
-    
-                    <div class="item">                                     
+
+                    <div class="item">
                         <a class="popup-gallery" href="images/tour/1.5.jpg"><img src="{{asset('assets/images/tour/1.5.jpg')}}" alt="images"></a>
-                        <div class="overlay">                            
-                        </div>                    
+                        <div class="overlay">
+                        </div>
                     </div><!-- /.portfolio-item -->
-    
-                    <div class="item">                                     
+
+                    <div class="item">
                         <a class="popup-gallery" href="images/tour/1.6.jpg"><img src="{{asset('assets/images/tour/1.6.jpg')}}" alt="images"></a>
-                        <div class="overlay">                            
-                        </div>                    
+                        <div class="overlay">
+                        </div>
                     </div><!-- /.portfolio-item -->
-    
-                    <div class="item">                                     
+
+                    <div class="item">
                         <a class="popup-gallery" href="images/tour/1.7.jpg"><img src="{{asset('assets/images/tour/1.7.jpg')}}" alt="images"></a>
-                        <div class="overlay">                            
-                        </div>                    
+                        <div class="overlay">
+                        </div>
                     </div><!-- /.portfolio-item -->
-    
-                    <div class="item">                                     
+
+                    <div class="item">
                         <a class="popup-gallery" href="images/tour/1.8.jpg"><img src="{{asset('assets/images/tour/1.8.jpg')}}" alt="images"></a>
-                        <div class="overlay">                            
-                        </div>                    
+                        <div class="overlay">
+                        </div>
                     </div><!-- /.portfolio-item -->
-    
-                    <div class="item">                                     
+
+                    <div class="item">
                         <a class="popup-gallery" href="images/tour/1.9.jpg"><img src="{{asset('assets/images/tour/1.9.jpg')}}" alt="images"></a>
-                        <div class="overlay">                            
-                        </div>                    
-                    </div><!-- /.portfolio-item -->       
-    
+                        <div class="overlay">
+                        </div>
+                    </div><!-- /.portfolio-item -->
+
                 </div><!-- /.portfolio-wrap -->
-            </div><!-- /.flat-portfolio --> 
+            </div><!-- /.flat-portfolio -->
         </section>
 
         <section class="flat-row parallax parallax4 bg-black bg-p81">
@@ -241,30 +241,10 @@ steps in applying for us visa,
                 <div class="row">
                     <div class="col-md-12">
                         <div class="wrap-contactform-home3">
-                            <form class="flat-contact-form style2 border-white border-large" id="contactform6" method="post" action="./contact/contact-process.php">
-                                <div class="field">      
-                                    <div class="wrap-type-input">                    
-                                        <div class="input-wrap name">
-                                            <input type="text" value="" tabindex="1" placeholder="Name" name="name" id="name" required="">
-                                        </div>
-                                        <div class="input-wrap email">
-                                            <input type="email" value="" tabindex="2" placeholder="Email" name="email" id="email-contact" required="">
-                                        </div>
-                                        <div class="input-wrap last Subject">
-                                            <input type="text" value="" placeholder="Subject" name="subject" id="subject-3">
-                                        </div>  
-                                    </div>
-                                    <div class="textarea-wrap">
-                                        <textarea class="type-input" tabindex="3" placeholder="Message" name="message" id="message-contact" required=""></textarea>
-                                    </div>
-                                </div>
-                                <div class="submit-wrap">
-                                    <button>Contact Us</button>
-                                </div>
-                            </form>
+                            @include('components.contactUs')
                         </div><!-- /.wrap-contactform-home3 -->
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
-        </section> 
+        </section>
 @endsection

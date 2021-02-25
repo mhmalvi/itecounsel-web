@@ -3,7 +3,7 @@
     <meta name="keyword" content="html,css,XML,java script,meta tags">
         <meta name="keywords" content="Malaysia, study in malaysia, education, Education Programs, Tuition Fees, Studying">
         <meta name="keywords" content="meta tags, meta description, meta keywords, SEO, search engine optimization">
-        <meta name="description" 
+        <meta name="description"
        content="Studying in Malaysia can be a feasible alternative to European,Canadian or Australian schools for those with a limited budget">
        <meta tag="keywords" content="malaysia,study in malaysia,education,education programs,tuition fees,studying,phd,kuala lumpur,kl,department of education,school education,penang,ministry of education,tuition,education city,polytechnic,case study,ece,batu caves,education board result,secondary school,agoda malaysia,montessori school,booking com malaysia,interdisciplinary,primary school,trivago malaysia,hsc result,study iq,phenomenology,teaching,exegesis,johor bahru,phd meaning,cameron highland,early childhood education,malesia,study abroad,semiotics,port dickson,malacca,board of education,education board,sarawak,pte study,putrajaya,selangor">
 
@@ -14,20 +14,20 @@
             <div class="overlay"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">                    
+                    <div class="col-md-12">
                         <div class="page-title-heading">
                             <h1 class="title">STUDY IN MALAYSIA</h1>
                             <div class="breadcrumbs">
                                 <ul>
                                     <li><a href="{{URL::to('/')}}">Home</a></li>
                                     <li>STUDY IN MALAYSIA</li>
-                                </ul>                   
+                                </ul>
                             </div>
-                        </div><!-- /.page-title-captions --> 
-                        
-                    </div><!-- /.col-md-12 -->  
-                </div><!-- /.row -->  
-            </div><!-- /.container -->                      
+                        </div><!-- /.page-title-captions -->
+
+                    </div><!-- /.col-md-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
         </div><!-- /.page-title -->
 
         <section class="flat-row pad-bottom60px pad-top85px">
@@ -54,7 +54,7 @@ We have known Malaysia like the back of our hands, so if you are indeed willing 
                     <div class="col-md-6">
                         <div class="single-image">
                             <img src="{{asset('assets/images/study/Why-Malaysia.jpg')}}" alt="image">
-                        </div><!-- /.about-us-img -->                        
+                        </div><!-- /.about-us-img -->
                     </div><!-- /.col-md-6 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
@@ -74,7 +74,7 @@ We have known Malaysia like the back of our hands, so if you are indeed willing 
                         </p>
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
-    
+
                 <hr>
                 <div class="flat-divider d20px"></div>
 
@@ -103,7 +103,7 @@ We have known Malaysia like the back of our hands, so if you are indeed willing 
                             </ul>
                         </div><!-- /.flat-list -->
                     </div><!-- /.col-md-6 -->
-    
+
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="flat-list right">
                             <ul>
@@ -116,8 +116,8 @@ We have known Malaysia like the back of our hands, so if you are indeed willing 
                                 <li class="content" style="text-align: justify;">
                                     <h6 class="title" style="color: #fff">Courses Are Conducted In English</h6>
                                     <p>
-                                        English is the primary medium of instruction for all courses and programs conducted at the private higher educational institutions. For those whom are less proficient in English, there are many schools and institutions offering basic English courses.                             
-                                    </p>                            
+                                        English is the primary medium of instruction for all courses and programs conducted at the private higher educational institutions. For those whom are less proficient in English, there are many schools and institutions offering basic English courses.
+                                    </p>
                                 </li>
                                 <li class="content" style="text-align: justify;">
                                     <h6 class="title" style="color: #fff">Safe & Comfortable Place To Study</h6>
@@ -147,22 +147,22 @@ We have known Malaysia like the back of our hands, so if you are indeed willing 
                         <div class="flat-testimonials" data-item="3" data-nav="false" data-dots="false" data-auto="true">
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/INTI-University.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/Segi-University.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/Taylors-University.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/university-of-warsaw.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/vytautas-magnus-university.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/Xiamen-University-Malaysia.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                                                                 
+                            </div>
                         </div><!-- /.flat-testimonials-->
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
@@ -175,30 +175,10 @@ We have known Malaysia like the back of our hands, so if you are indeed willing 
                 <div class="row">
                     <div class="col-md-12">
                         <div class="wrap-contactform-home3">
-                            <form class="flat-contact-form style2 border-white border-large" id="contactform6" method="post" action="./contact/contact-process.php">
-                                <div class="field">      
-                                    <div class="wrap-type-input">                    
-                                        <div class="input-wrap name">
-                                            <input type="text" value="" tabindex="1" placeholder="Name" name="name" id="name" required="">
-                                        </div>
-                                        <div class="input-wrap email">
-                                            <input type="email" value="" tabindex="2" placeholder="Email" name="email" id="email-contact" required="">
-                                        </div>
-                                        <div class="input-wrap last Subject">
-                                            <input type="text" value="" placeholder="Subject" name="subject" id="subject-3">
-                                        </div>  
-                                    </div>
-                                    <div class="textarea-wrap">
-                                        <textarea class="type-input" tabindex="3" placeholder="Message" name="message" id="message-contact" required=""></textarea>
-                                    </div>
-                                </div>
-                                <div class="submit-wrap">
-                                    <button>Contact Us</button>
-                                </div>
-                            </form>
+                            @include('components.contactUs')
                         </div><!-- /.wrap-contactform-home3 -->
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
-        </section> 
+        </section>
 @endsection

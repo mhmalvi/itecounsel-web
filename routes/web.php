@@ -40,6 +40,7 @@ Route::get('mail', function () {
 });
 
 Route::get('/contact-us', [ContactController::class, 'index'])->name('contact_us');
+Route::post('/contact-us', [MailController::class, 'contact']);
 
 Route::get('/rpl', [CourseController::class, 'index'])->name('rpl');
 Route::get('/courses/diploma', [CourseController::class, 'diploma'])->name('diploma');
@@ -70,14 +71,14 @@ Route::middleware(['auth:sanctum', 'verified'])->name('admin.')->group(function(
 
         //Blogs
         Route::resource('blog', AdminBlogController::class);
-    
+
         //Category
         Route::get('categories', [CategoryController::class, 'index'])->name('category');
         Route::post('categories', [CategoryController::class, 'store'])->name('category.add');
         Route::get('categories/{id}/edit', [CategoryController::class, 'edit']);
         Route::put('categories/update', [CategoryController::class, 'update'])->name('category.update');
         Route::delete('categories/{id}', [CategoryController::class, 'destroy']);
-    
+
         //Settings
         Route::get('profile', [AdminHomeController::class, 'profile'])->name('userProfile');
         Route::post('profile', [AdminHomeController::class, 'profileUpdate'])->name('userProfileUpdate');

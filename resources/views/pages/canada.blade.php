@@ -3,7 +3,7 @@
     <meta name="keyword" content="html,css,XML,java script,meta tags">
         <meta name="keywords" content="STUDY IN CANADA, Canada, scholarship programmes, canada scholarship">
         <meta name="keywords" content="meta tags, meta description, meta keywords, SEO, search engine optimization">
-        <meta name="description" 
+        <meta name="description"
        content="Speaking of permanent residence, what is that anyway? Well,it’s the right to live and work in Canada,while enjoying public health.">
         <meta name="social" content="https://www.facebook.com/ITECOUNSEL.AUSTRALIA/">
        <meta tag="keywords" content="study in canada,
@@ -60,20 +60,20 @@ scholarships in canada for african students
             <div class="overlay"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">                    
+                    <div class="col-md-12">
                         <div class="page-title-heading">
                             <h1 class="title">STUDY IN CANADA</h1>
                             <div class="breadcrumbs">
                                 <ul>
                                     <li><a href="{{URL::to('/')}}">Home</a></li>
                                     <li>STUDY IN CANADA</li>
-                                </ul>                   
+                                </ul>
                             </div>
-                        </div><!-- /.page-title-captions --> 
-                        
-                    </div><!-- /.col-md-12 -->  
-                </div><!-- /.row -->  
-            </div><!-- /.container -->                      
+                        </div><!-- /.page-title-captions -->
+
+                    </div><!-- /.col-md-12 -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
         </div><!-- /.page-title -->
 
         <section class="flat-row pad-bottom60px pad-top85px">
@@ -90,7 +90,7 @@ scholarships in canada for african students
                     <div class="col-md-6">
                         <div class="single-image">
                             <img src="{{asset('assets/images/study/study-in-canada.jpg')}}" alt="image">
-                        </div><!-- /.about-us-img -->                        
+                        </div><!-- /.about-us-img -->
                     </div><!-- /.col-md-6 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
@@ -108,7 +108,7 @@ scholarships in canada for african students
                         <p style="color: #fff">It offers a sound education system, friendly student environment and an immigration system that is open to everyone. One of the greatest aspects of studying abroad in Canada is that there is an option for students of all ages, whether you are in high school or in pursuit of a graduate degree. If you are looking to study in a student-friendly place with great academic options and highly ranked universities, then you should consider studying in Canada</p>
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
-    
+
                 <hr>
                 <div class="flat-divider d20px"></div>
 
@@ -129,7 +129,7 @@ scholarships in canada for african students
                             </ul>
                         </div><!-- /.flat-list -->
                     </div><!-- /.col-md-6 -->
-    
+
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="flat-list right">
                             <ul>
@@ -164,22 +164,22 @@ scholarships in canada for african students
                         <div class="flat-testimonials" data-item="3" data-nav="false" data-dots="false" data-auto="true">
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/Arbutus-College.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/Mcgill-University.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/Simon-Fraser-University.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/Southern-Cross-University.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/UBC.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                         
+                            </div>
                             <div class="flat-testimonials-v2">
                                 <img src="{{asset('assets/images/study/University-of-Manitoba.jpg')}}" alt="" style="max-width: 200px;">
-                            </div>                                                                                 
+                            </div>
                         </div><!-- /.flat-testimonials-->
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
@@ -192,27 +192,7 @@ scholarships in canada for african students
                 <div class="row">
                     <div class="col-md-12">
                         <div class="wrap-contactform-home3">
-                            <form class="flat-contact-form style2 border-white border-large" id="contactform6" method="post" action="./contact/contact-process.php">
-                                <div class="field">      
-                                    <div class="wrap-type-input">                    
-                                        <div class="input-wrap name">
-                                            <input type="text" value="" tabindex="1" placeholder="Name" name="name" id="name" required="">
-                                        </div>
-                                        <div class="input-wrap email">
-                                            <input type="email" value="" tabindex="2" placeholder="Email" name="email" id="email-contact" required="">
-                                        </div>
-                                        <div class="input-wrap last Subject">
-                                            <input type="text" value="" placeholder="Subject" name="subject" id="subject-3">
-                                        </div>  
-                                    </div>
-                                    <div class="textarea-wrap">
-                                        <textarea class="type-input" tabindex="3" placeholder="Message" name="message" id="message-contact" required=""></textarea>
-                                    </div>
-                                </div>
-                                <div class="submit-wrap">
-                                    <button>Contact Us</button>
-                                </div>
-                            </form>
+                            @include('components.contactUs')
                         </div><!-- /.wrap-contactform-home3 -->
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @push('seo')
- 
+
         <meta name="keyword" content="html,css,XML,java script,meta tags">
         <meta name="keywords" content="ITEC, most trusted education agent, university, coaching, abroad study solution, IELTS">
         <meta name="keywords" content="meta tags, meta description, meta keywords, SEO, search engine optimization">
@@ -13,7 +13,7 @@
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-        
+
           gtag('config', 'G-SBEGPQEPVB');
         </script>
         <!-- Google Tag Manager -->
@@ -23,9 +23,9 @@
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-TD88S3F');</script>
         <!-- End Google Tag Manager -->
-        
+
         <script data-ad-client="ca-pub-6706699637920296" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        
+
 @endpush()
 @section('content')
         {{-- slider --}}
@@ -38,7 +38,7 @@
                         <div class="col-md-7">
                             <div class="about-us-img clearfix">
                                 <div class="v1">
-                                    <div class="overly-img"></div>  
+                                    <div class="overly-img"></div>
                                     <img src="{{asset('assets/images/about/about2.jpg')}}" alt="image">
                                 </div>
                                 <div class="v2">
@@ -46,12 +46,12 @@
                                     <img src="{{asset('assets/images/about/about6.png')}}" alt="image">
                                 </div>
                                 <div class="v3">
-                                    <div class="overly-img"> </div>  
+                                    <div class="overly-img"> </div>
                                     <img src="{{asset('assets/images/about/about1.jpg')}}" alt="image">
-                                </div>                            
+                                </div>
                             </div><!-- /.about-us-img -->
                         </div><!-- /.col-md-7 -->
-                        
+
                         <div class="col-md-5">
                             <div class="about-us style1">
                                 <h1 class="title-about-us">Why Us</h1>
@@ -67,7 +67,7 @@
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </section><!-- /.flat-row -->
-        
+
         <div class="flat-divider d88px"></div>
 
         <!-- Itec Info -->
@@ -82,7 +82,7 @@
                         </div><!-- /.col-md-6 -->
                         <div class="col-md-7">
                             <div class="flat-divider d30px"></div>
-        
+
                             <div class="row">
                                 <div class="col-md-6 col-ms-6 col-xs-6">
                                     <div class="flat-iconbox style1">
@@ -90,27 +90,27 @@
                                             <span class="icon-Board"></span>
                                         </div>
                                         <div class="content">
-                                            <h2 class="title"><a href="#">Why Choose ITEC?</a></h2>            
+                                            <h2 class="title"><a href="#">Why Choose ITEC?</a></h2>
                                             <p>ITEC is here for your abroad study solution in highly ranked universities providing scholarships.</p>
                                         </div>
                                     </div><!-- /.flat-iconbox -->
                                 </div><!-- /.col-md-6 -->
-        
+
                                 <div class="col-md-6 col-ms-6 col-xs-6">
                                     <div class="flat-iconbox style1">
                                         <div class="icon-image">
                                             <span class="icon-Notepad"></span>
                                         </div>
                                         <div class="content">
-                                            <h3 class="title"><a href="#">What makes me compatible for visa?</a></h3>            
+                                            <h3 class="title"><a href="#">What makes me compatible for visa?</a></h3>
                                             <p>Our highly trained and professional consultants would help you to make you compatible by guiding you step by step for your visa. </p>
                                         </div>
                                     </div><!-- /.flat-iconbox -->
                                 </div><!-- /.col-md-6 -->
                             </div><!-- /.row -->
-        
+
                             <div class="flat-divider d45px"></div>
-        
+
                             <div class="row">
                                 <div class="col-md-6 col-ms-6 col-xs-6">
                                     <div class="flat-iconbox style1">
@@ -118,20 +118,20 @@
                                             <span class="icon-Brain"></span>
                                         </div>
                                         <div class="content">
-                                            <h4 class="title"><a href="#">How long does it take to process visa?</a></h4>            
+                                            <h4 class="title"><a href="#">How long does it take to process visa?</a></h4>
                                             <p>It takes 15 days or longer for countries such as Australia, Canada and Europe once you step on the loop through this platform. In case of <a href="https://www.itecounsel.com/services/tourist-visa">tourist visa</a> for Malaysia, the process will take only 24</p>
                                         </div>
                                     </div><!-- /.flat-iconbox -->
                                 </div><!-- /.col-md-6 -->
-        
+
                                 <div class="col-md-6 col-ms-6 col-xs-6">
                                     <div class="flat-iconbox style1">
                                         <div class="icon-image">
                                             <span class="icon-Affiliate"></span>
                                         </div>
                                         <div class="content">
-                                            <h5 class="title"><a href="#">Why does ITEC charge a fee?</a></h5>            
-                                            <p>Partly because we will work to save a considerable period of time for you that you may have had lost while carrying out everything single-handedly.</p> 
+                                            <h5 class="title"><a href="#">Why does ITEC charge a fee?</a></h5>
+                                            <p>Partly because we will work to save a considerable period of time for you that you may have had lost while carrying out everything single-handedly.</p>
                                         </div>
                                     </div><!-- /.flat-iconbox -->
                                 </div><!-- /.col-md-6 -->
@@ -141,7 +141,7 @@
                 </div><!-- /.container -->
             </section>
         </section>
-        
+
         <!-- Flat courses -->
         <section class="flat-row pad-bottom90px">
             <div class="container">
@@ -150,9 +150,9 @@
                         <div class="title-section style1">
                             <h1 class="title">Our RPL Courses</h1>
                             <div class="desc">
-                                <p>Recognition of Prior Learning (RPL) is an assessment process used by <a href="https://training.gov.au/Home/Tga">RTOs</a> to evaluate a person’s skills, 
-                                    knowledge and experience gained through working and learning, in Australia or overseas, 
-                                    be it through life experience, work or other activities such as volunteering. 
+                                <p>Recognition of Prior Learning (RPL) is an assessment process used by <a href="https://training.gov.au/Home/Tga">RTOs</a> to evaluate a person’s skills,
+                                    knowledge and experience gained through working and learning, in Australia or overseas,
+                                    be it through life experience, work or other activities such as volunteering.
                                     RTOs can also provide a credit against units of competency, often shortening the time needed to undertake a qualification.
                                 </p>
                             </div>
@@ -162,11 +162,11 @@
                         </div><!-- /.title-section -->
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
-    
+
                 <div class="row">
                     <div class="flat-divider d55px"></div>
                 </div>
-    
+
                 <div class="row">
                     <div class="col-md-6 flat-animation" data-animation="fadeInLeft" data-animation-delay="1" data-animation-offset="75%" style="padding: 15px 0px !important;">
                         <div class="flat-courses-front">
@@ -185,11 +185,11 @@
                         </div><!-- /.flat-courses -->
                     </div><!-- /.col-md-3 -->
                 </div><!-- /.row -->
-    
+
                 <div class="row">
                     <div class="flat-divider d40px"></div>
                 </div>
-    
+
                 <div class="row">
                     <div class="col-md-6 flat-animation" data-animation="fadeInRight" data-animation-delay="0" data-animation-offset="75%" style="padding: 15px 0px !important;">
                         <div class="flat-courses-front">
@@ -208,13 +208,13 @@
                         </div><!-- /.flat-courses -->
                     </div><!-- /.col-md-3 -->
                 </div><!-- /.row -->
-                
+
                 <div style="display: flex; justify-content: Center;">
                     <a href="{{route('apply_now')}}" class="btn-a" target="blank">Apply Now</a>
                 </div>
             </div><!-- /.container -->
         </section><!-- /.flat-row -->
-    
+
         <!-- Testimonial -->
         <section class="flat-row parallax parallax4 row-bg-whiteblack pad-top240px pad-bottom0px">
             <div class="overlay"></div>
@@ -236,7 +236,7 @@
                                         <li>
                                             <p class="say">They provide air tickets in low price , comparing to others . Good job , keep up the good work .</p>
                                             <p class="name">Dew Anthony Gomes</p>
-                                        </li>                                   
+                                        </li>
                                     </ul>
                                 </div>
                             </div><!-- /.flat-testimonials-slider -->
@@ -246,37 +246,49 @@
             </div>
         </section>
 
-    
+
         <div class="flat-divider d85px"></div>
-    
+
         <!-- Flat contact -->
         <section class="flat-row bg-contact pad-top375px pad-bottom360px">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 flat-animation" data-animation="fadeInLeft" data-animation-delay="0" data-animation-offset="75%">
                         <div class="wrap-contactform-home1">
-                            <form class="flat-contact-form border-radius field-large text-large"  method="post" action="">
+                            <form class="flat-contact-form border-radius field-large text-large"  method="post" action="{{route('contact_us')}}">
                                 @csrf
-                                <div class="field clearfix">      
-                                    <div class="wrap-type-input">                    
+                                <div class="field clearfix">
+                                    <div class="wrap-type-input">
                                         <div class="input-wrap name">
                                             <input type="text" value="" tabindex="1" placeholder="Your name" name="name" id="name" required>
+                                            @error('name')
+                                                <small class="text-danger">{{ $message }}</small>
+                                            @enderror
                                         </div>
                                         <div class="input-wrap email">
                                             <input type="email" value="" tabindex="2" placeholder="Your email" name="email" id="email" required>
+                                            @error('email')
+                                                <small class="text-danger">{{ $message }}</small>
+                                            @enderror
                                         </div>
                                         <div class="input-wrap last Subject">
                                             <input type="text" value="" placeholder="Subject" name="subject" id="subject" >
-                                        </div>  
+                                            @error('subject')
+                                                <small class="text-danger">{{ $message }}</small>
+                                            @enderror
+                                        </div>
                                     </div>
                                     <div class="textarea-wrap">
                                         <textarea class="type-input" tabindex="3" placeholder="Your Message" name="message" id="message-contact" required></textarea>
+                                        @error('message')
+                                            <small class="text-danger">{{ $message }}</small>
+                                        @enderror
                                     </div>
                                 </div>
                                 <div class="submit-wrap">
                                     <button type="submit">Contact Us</button>
                                 </div>
-                            </form><!-- /.comment-form -->   
+                            </form><!-- /.comment-form -->
                         </div><!-- /.wrap-contactform-home1 -->
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
