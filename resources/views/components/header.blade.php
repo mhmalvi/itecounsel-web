@@ -1,5 +1,5 @@
-    <!-- Header -->            
-    <header id="header" class="header clearfix"> 
+    <!-- Header -->
+    <header id="header" class="header clearfix">
         <div class="header-wrap clearfix">
             <div class="container">
                 <div class="row">
@@ -15,9 +15,9 @@
                     </div><!-- /.col-md-2 -->
                     <div class="col-md-10">
                         <div class="nav-wrap">
-                            
+
                             <nav id="mainnav" class="mainnav">
-                                <ul class="menu"> 
+                                <ul class="menu">
                                     <li class="home">
                                         <a href="{{URL::to('/')}}">Home</a>
                                     </li>
@@ -39,7 +39,7 @@
                                             <li><a href="{{route('malaysia')}}">Study in Malaysia</a></li>
                                         </ul><!-- /.submenu -->
                                     </li>
-                                    <li><a href="{{route('migration')}}">Migrations</a></li>                                             
+                                    <li><a href="{{route('migration')}}">Migrations</a></li>
                                     <li>
                                         <a href="{{route('rpl')}}">RPL</a>
                                         <ul class="submenu">
@@ -49,13 +49,14 @@
                                             <li><a href="{{route('certificate4')}}">Certificate IV</a></li>
                                         </ul><!-- /.submenu -->
                                     </li>
+                                    <li><a href="{{route('faq')}}">FAQ</a></li>
                                     <li><a href="{{route('blogs')}}">Blogs</a></li>
                                     <li><a href="{{route('contact_us')}}">Contact Us</a></li>
                                 </ul><!-- /.menu -->
-                            </nav><!-- /.mainnav -->  
+                            </nav><!-- /.mainnav -->
                         </div><!-- /.nav-wrap -->
                     </div><!-- /.col-md-10 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
-        </div> 
+        </div>
     </header>

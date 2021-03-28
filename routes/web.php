@@ -13,7 +13,7 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\Admin\HomeController as AdminHomeController;
 use App\Http\Controllers\Admin\BlogController as AdminBlogController;
 use App\Http\Controllers\Admin\CategoryController;
-
+use App\Http\Controllers\FaqController;
 
 /*
 |--------------------------------------------------------------------------
@@ -41,6 +41,7 @@ Route::get('mail', function () {
 
 Route::get('/contact-us', [ContactController::class, 'index'])->name('contact_us');
 Route::post('/contact-us', [MailController::class, 'contact']);
+Route::get('/faq', [FaqController::class, 'index'])->name('faq');
 
 Route::get('/rpl', [CourseController::class, 'index'])->name('rpl');
 Route::get('/courses/diploma', [CourseController::class, 'diploma'])->name('diploma');

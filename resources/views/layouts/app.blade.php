@@ -6,7 +6,7 @@
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-    <title>ITEC - International Training & Education Counsel</title>
+    <title>International Education Council, RPL Assessments, Australia, Bangladesh</title>
 
     <meta name="author" content="">
 <meta name="tags" content="rpl consulting,
@@ -109,7 +109,7 @@ rpl share price,
             <h2 class="loader">Loading...</h2>
         </div>
     </section> --}}
-    
+
     @auth
         <div class="bg-light" style="display: flex; justify-content:center;">
             <a href="{{route('admin.home')}}"><i class="fa fa-pencil-square"></i> Back to dashboard!</a>
