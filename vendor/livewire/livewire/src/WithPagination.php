@@ -10,7 +10,11 @@ trait WithPagination
 
     public function getQueryString()
     {
-        return array_merge(['page' => ['except' => 1]], $this->queryString);
+        $queryString = method_exists($this, 'queryString')
+            ? $this->queryString()
+            : $this->queryString;
+
+        return array_merge(['page' => ['except' => 1]], $queryString);
     }
 
     public function initializeWithPagination()
@@ -37,7 +41,7 @@ trait WithPagination
 
     public function previousPage()
     {
-        $this->setPage($this->page - 1);
+        $this->setPage(max($this->page - 1, 1));
     }
 
     public function nextPage()
