@@ -13,7 +13,7 @@ use App\Http\Controllers\BlogController;
 use App\Http\Controllers\Admin\HomeController as AdminHomeController;
 use App\Http\Controllers\Admin\BlogController as AdminBlogController;
 use App\Http\Controllers\Admin\CategoryController;
-
+use App\Http\Controllers\Admin\SiteSettingsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -82,4 +82,8 @@ Route::middleware(['auth:sanctum', 'verified'])->name('admin.')->group(function(
         //Settings
         Route::get('profile', [AdminHomeController::class, 'profile'])->name('userProfile');
         Route::post('profile', [AdminHomeController::class, 'profileUpdate'])->name('userProfileUpdate');
+
+        //Site Settings
+        Route::get('site-settings', [SiteSettingsController::class, 'siteSettings'])->name('siteSettings');
+        Route::match(['put','PATCH'], 'admin/site-update/{id}', [SiteSettingsController::class, 'update']);
 });

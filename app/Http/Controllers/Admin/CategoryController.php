@@ -34,7 +34,7 @@ class CategoryController extends Controller
                 'message'   =>  $request->category.' saved successfully!',
                 'alert-type'    =>  'success'
             ];
-    
+
             return redirect()->back()->with($notification);
 
         } catch (\Throwable $th) {
@@ -43,7 +43,7 @@ class CategoryController extends Controller
                 'message'   =>  $th,
                 'alert-type'    =>  'warning'
             ];
-    
+
             return redirect()->back()->with($notification);
         }
     }
@@ -78,7 +78,7 @@ class CategoryController extends Controller
                 'message'   =>  'nothing went wrong',
                 'alert-type'    =>  'success'
             ];
-    
+
             return redirect()->back()->with($notification);
 
         } catch (\Throwable $th) {
@@ -87,7 +87,7 @@ class CategoryController extends Controller
                 'message'   =>  $th->getMessage(),
                 'alert-type'    =>  'warning'
             ];
-    
+
             return redirect()->back()->with($notification);
         }
     }
