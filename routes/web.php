@@ -49,6 +49,10 @@ Route::get('/courses/diploma-advanced', [CourseController::class, 'ADdiploma'])-
 Route::get('/courses/certificate-iii', [CourseController::class, 'certificate3'])->name('certificate3');
 Route::get('/courses/certificate-iv', [CourseController::class, 'certificate4'])->name('certificate4');
 
+//added by riaz
+Route::get('/get-courses', [CourseController::class, 'getCourses']);
+Route::get('/get-category', [CourseController::class, 'getCategory']);
+
 Route::get('/migration', [MigrationController::class, 'index'])->name('migration');
 
 Route::get('/services/tourist-visa', [ServicesController::class, 'tourist'])->name('tourist');

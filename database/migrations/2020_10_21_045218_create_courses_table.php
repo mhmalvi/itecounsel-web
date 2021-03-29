@@ -18,6 +18,10 @@ class CreateCoursesTable extends Migration
             $table->integer('course_type_id');
             $table->string('course_code');
             $table->string('course_name');
+            $table->string('course_category_id');
+            $table->string('course_category');
+            $table->string('course_descriptions');
+            $table->string('course_thumbnail');
             $table->timestamps();
         });
     }
