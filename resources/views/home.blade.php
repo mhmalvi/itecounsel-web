@@ -54,9 +54,9 @@
 
                         <div class="col-md-5">
                             <div class="about-us style1">
-                                <h1 class="title-about-us">Why Us</h1>
+                                <h1 class="title-about-us">Why Choose ITEC</h1>
                                 <div class="desc" style="text-align: justify;">
-                                    <p>ITEC – International Training & Education Counsel is your most trusted education agent who is here to help you getting your higher education dream come true by applying to the most highly ranked universities across the world even with a scholarship! Also get yourself sorted with your university change, TR and PR application, visa extension, NAATI, PTE coaching through us in our head office at Australia!</p>
+                                    <p>We are offering the best university admission services to potential students wanting to go abroad for higher studies. We are one of the top university admission agents, IELTS course providers, RPL Assessment representative in Bangladesh.</p>
                                 </div>
                                 <div style="display: flex; justify-content: center;">
                                     <a href="{{route('eligibility')}}" class="btn-a" target="blank">Eligibility</a>

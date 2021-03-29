@@ -12,16 +12,18 @@
 @section('content')
 
     <style>
-        .faq{
+        .faq {
             padding: 50px;
             width: 50%;
             float: left;
         }
-        .fimg{
+
+        .fimg {
             padding: 50px;
             width: 50%;
             float: left;
         }
+
         .accordion {
             background-color: #eee;
             color: #444;
@@ -59,17 +61,20 @@
 
         <button class="accordion">What makes me compatible for visa?</button>
         <div class="panel">
-            <p>Our highly trained and professional consultants would help you to make you compatible by guiding you step by step for your visa.</p>
+            <p>Our highly trained and professional consultants would help you to make you compatible by guiding you step by
+                step for your visa.</p>
         </div>
 
         <button class="accordion">How long does it take to process visa?</button>
         <div class="panel">
-            <p>It takes 15 days or longer for countries such as Australia, Canada and Europe once you step on the loop through this platform. In case of tourist visa for Malaysia, the process will take only 24</p>
+            <p>It takes 15 days or longer for countries such as Australia, Canada and Europe once you step on the loop
+                through this platform. In case of tourist visa for Malaysia, the process will take only 24</p>
         </div>
 
         <button class="accordion">Why does ITEC charge a fee?</button>
         <div class="panel">
-            <p>Partly because we will work to save a considerable period of time for you that you may have had lost while carrying out everything single-handedly.</p>
+            <p>Partly because we will work to save a considerable period of time for you that you may have had lost while
+                carrying out everything single-handedly.</p>
         </div>
     </div>
     <div class="fimg">
