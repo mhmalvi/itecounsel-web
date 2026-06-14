@@ -1,6 +1,8 @@
 <!-- repo-card -->
 ![itecounsel-web](docs/assets/social-card.png)
 
+![itecounsel-web — architecture](docs/assets/architecture.png)
+
 # ITE Counsel Web
 
 An updated iteration of the ITE Counsel (ITEC) website, built with Laravel. This version features an improved design, enhanced SEO with sitemap and Google verification, Tailwind CSS styling, and production-ready deployment configuration including .htaccess and symlink management.
